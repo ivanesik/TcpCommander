@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84001FEC206A268D00EC8AB1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 84001FEB206A268D00EC8AB1 /* logo.png */; };
+		8433B2B0206A6C3800513180 /* addConstraintsWithFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433B2AF206A6C3800513180 /* addConstraintsWithFormat.swift */; };
+		843ED07C206F853900D63D9E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843ED07B206F853900D63D9E /* MainViewController.swift */; };
+		843ED080206F912F00D63D9E /* Triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 843ED07F206F912F00D63D9E /* Triangle.png */; };
 		84914B5420690FAF0053D1BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84914B5320690FAF0053D1BE /* AppDelegate.swift */; };
-		84914B5620690FAF0053D1BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84914B5520690FAF0053D1BE /* ViewController.swift */; };
+		84914B5620690FAF0053D1BE /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84914B5520690FAF0053D1BE /* StartViewController.swift */; };
 		84914B5920690FAF0053D1BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84914B5720690FAF0053D1BE /* Main.storyboard */; };
 		84914B5C20690FAF0053D1BE /* TCP_Commander.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84914B5A20690FAF0053D1BE /* TCP_Commander.xcdatamodeld */; };
 		84914B5E20690FAF0053D1BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84914B5D20690FAF0053D1BE /* Assets.xcassets */; };
 		84914B6120690FAF0053D1BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84914B5F20690FAF0053D1BE /* LaunchScreen.storyboard */; };
+		84914B6E20691E590053D1BE /* ClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84914B6D20691E590053D1BE /* ClientService.swift */; };
+		84FD9BC0206A2A1700A47D7E /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD9BBF206A2A1700A47D7E /* AppColors.swift */; };
+		84FE18FB206CC7D600682A4E /* KJTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE18FA206CC7D600682A4E /* KJTutorial.swift */; };
+		84FE18FD206CC83300682A4E /* ClassExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE18FC206CC83300682A4E /* ClassExt.swift */; };
+		84FE18FF206CC89900682A4E /* KJOverlayTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE18FE206CC89900682A4E /* KJOverlayTutorialViewController.swift */; };
+		84FE1901206CD1D500682A4E /* ico-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE1900206CD1D500682A4E /* ico-menu.png */; };
+		84FE1903206CD4C100682A4E /* logo-sm.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE1902206CD4C100682A4E /* logo-sm.png */; };
+		C860BD685E4C4C91B5824A82 /* Pods_TCP_Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BAE85F09A3BFF2B04FD9A8 /* Pods_TCP_Commander.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2677CD3E475B79E6BAC49581 /* Pods-TCP Commander.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCP Commander.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TCP Commander/Pods-TCP Commander.debug.xcconfig"; sourceTree = "<group>"; };
+		444A556507A1011D38212D91 /* Pods-TCP Commander.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCP Commander.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCP Commander/Pods-TCP Commander.release.xcconfig"; sourceTree = "<group>"; };
+		56BAE85F09A3BFF2B04FD9A8 /* Pods_TCP_Commander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCP_Commander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84001FEB206A268D00EC8AB1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		8433B2AF206A6C3800513180 /* addConstraintsWithFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addConstraintsWithFormat.swift; sourceTree = "<group>"; };
+		843ED07B206F853900D63D9E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		843ED07F206F912F00D63D9E /* Triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Triangle.png; sourceTree = "<group>"; };
 		84914B5020690FAF0053D1BE /* TCP Commander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCP Commander.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84914B5320690FAF0053D1BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84914B5520690FAF0053D1BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84914B5520690FAF0053D1BE /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		84914B5820690FAF0053D1BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84914B5B20690FAF0053D1BE /* TCP_Commander.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TCP_Commander.xcdatamodel; sourceTree = "<group>"; };
 		84914B5D20690FAF0053D1BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84914B6020690FAF0053D1BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84914B6220690FAF0053D1BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84914B6D20691E590053D1BE /* ClientService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientService.swift; sourceTree = "<group>"; };
+		84FD9BBF206A2A1700A47D7E /* AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		84FE18FA206CC7D600682A4E /* KJTutorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KJTutorial.swift; sourceTree = "<group>"; };
+		84FE18FC206CC83300682A4E /* ClassExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassExt.swift; sourceTree = "<group>"; };
+		84FE18FE206CC89900682A4E /* KJOverlayTutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KJOverlayTutorialViewController.swift; sourceTree = "<group>"; };
+		84FE1900206CD1D500682A4E /* ico-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico-menu.png"; sourceTree = "<group>"; };
+		84FE1902206CD4C100682A4E /* logo-sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-sm.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C860BD685E4C4C91B5824A82 /* Pods_TCP_Commander.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DFF10A89188B650BF9AE1F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2677CD3E475B79E6BAC49581 /* Pods-TCP Commander.debug.xcconfig */,
+				444A556507A1011D38212D91 /* Pods-TCP Commander.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84001FEA206A265600EC8AB1 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				84FD9BBE206A29F600A47D7E /* Styles */,
+				84FD9BBD206A29EA00A47D7E /* Images */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		8433B2AD206A6BBA00513180 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				84FE18F9206CC7A200682A4E /* KJTutorial */,
+				8433B2AE206A6BC400513180 /* Extension */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		8433B2AE206A6BC400513180 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8433B2AF206A6C3800513180 /* addConstraintsWithFormat.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		84914B4720690FAF0053D1BE = {
 			isa = PBXGroup;
 			children = (
 				84914B5220690FAF0053D1BE /* TCP Commander */,
 				84914B5120690FAF0053D1BE /* Products */,
+				0DFF10A89188B650BF9AE1F8 /* Pods */,
+				DE79431289724B0AB7DF158B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +120,11 @@
 		84914B5220690FAF0053D1BE /* TCP Commander */ = {
 			isa = PBXGroup;
 			children = (
+				84001FEA206A265600EC8AB1 /* Resourses */,
+				84914B6A20691E200053D1BE /* ViewController */,
+				84914B6820691E120053D1BE /* Service */,
+				8433B2AD206A6BBA00513180 /* Help */,
 				84914B5320690FAF0053D1BE /* AppDelegate.swift */,
-				84914B5520690FAF0053D1BE /* ViewController.swift */,
 				84914B5720690FAF0053D1BE /* Main.storyboard */,
 				84914B5D20690FAF0053D1BE /* Assets.xcassets */,
 				84914B5F20690FAF0053D1BE /* LaunchScreen.storyboard */,
@@ -67,6 +134,60 @@
 			path = "TCP Commander";
 			sourceTree = "<group>";
 		};
+		84914B6820691E120053D1BE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				84914B6D20691E590053D1BE /* ClientService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		84914B6A20691E200053D1BE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84914B5520690FAF0053D1BE /* StartViewController.swift */,
+				843ED07B206F853900D63D9E /* MainViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		84FD9BBD206A29EA00A47D7E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				843ED07F206F912F00D63D9E /* Triangle.png */,
+				84FE1902206CD4C100682A4E /* logo-sm.png */,
+				84FE1900206CD1D500682A4E /* ico-menu.png */,
+				84001FEB206A268D00EC8AB1 /* logo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		84FD9BBE206A29F600A47D7E /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				84FD9BBF206A2A1700A47D7E /* AppColors.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		84FE18F9206CC7A200682A4E /* KJTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				84FE18FE206CC89900682A4E /* KJOverlayTutorialViewController.swift */,
+				84FE18FC206CC83300682A4E /* ClassExt.swift */,
+				84FE18FA206CC7D600682A4E /* KJTutorial.swift */,
+			);
+			path = KJTutorial;
+			sourceTree = "<group>";
+		};
+		DE79431289724B0AB7DF158B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56BAE85F09A3BFF2B04FD9A8 /* Pods_TCP_Commander.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84914B6520690FAF0053D1BE /* Build configuration list for PBXNativeTarget "TCP Commander" */;
 			buildPhases = (
+				9F32F6BD5409C84E7CCE812F /* [CP] Check Pods Manifest.lock */,
 				84914B4C20690FAF0053D1BE /* Sources */,
 				84914B4D20690FAF0053D1BE /* Frameworks */,
 				84914B4E20690FAF0053D1BE /* Resources */,
+				4A2638648B75DA3C6B1BD927 /* [CP] Embed Pods Frameworks */,
+				F299FE67961786E29FF77E1F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,13 +250,85 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84914B6120690FAF0053D1BE /* LaunchScreen.storyboard in Resources */,
 				84914B5E20690FAF0053D1BE /* Assets.xcassets in Resources */,
+				84001FEC206A268D00EC8AB1 /* logo.png in Resources */,
+				84FE1903206CD4C100682A4E /* logo-sm.png in Resources */,
+				843ED080206F912F00D63D9E /* Triangle.png in Resources */,
+				84FE1901206CD1D500682A4E /* ico-menu.png in Resources */,
+				84914B6120690FAF0053D1BE /* LaunchScreen.storyboard in Resources */,
 				84914B5920690FAF0053D1BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A2638648B75DA3C6B1BD927 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TCP Commander/Pods-TCP Commander-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/LGButton/LGButton.framework",
+				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/RLBAlertsPickers/RLBAlertsPickers.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftIconFont/SwiftIconFont.framework",
+				"${BUILT_PRODUCTS_DIR}/UnderLineTextField/UnderLineTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RLBAlertsPickers.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIconFont.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UnderLineTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TCP Commander/Pods-TCP Commander-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F32F6BD5409C84E7CCE812F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCP Commander-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F299FE67961786E29FF77E1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TCP Commander/Pods-TCP Commander-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84914B4C20690FAF0053D1BE /* Sources */ = {
@@ -140,8 +336,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				84914B5C20690FAF0053D1BE /* TCP_Commander.xcdatamodeld in Sources */,
-				84914B5620690FAF0053D1BE /* ViewController.swift in Sources */,
+				84914B5620690FAF0053D1BE /* StartViewController.swift in Sources */,
+				84FE18FB206CC7D600682A4E /* KJTutorial.swift in Sources */,
+				84FE18FD206CC83300682A4E /* ClassExt.swift in Sources */,
 				84914B5420690FAF0053D1BE /* AppDelegate.swift in Sources */,
+				843ED07C206F853900D63D9E /* MainViewController.swift in Sources */,
+				84FD9BC0206A2A1700A47D7E /* AppColors.swift in Sources */,
+				8433B2B0206A6C3800513180 /* addConstraintsWithFormat.swift in Sources */,
+				84FE18FF206CC89900682A4E /* KJOverlayTutorialViewController.swift in Sources */,
+				84914B6E20691E590053D1BE /* ClientService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,31 +479,42 @@
 		};
 		84914B6620690FAF0053D1BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2677CD3E475B79E6BAC49581 /* Pods-TCP Commander.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L88TRVRSN9;
 				INFOPLIST_FILE = "TCP Commander/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Elyoskin.TCP-Commander";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.tpu.tcp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		84914B6720690FAF0053D1BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 444A556507A1011D38212D91 /* Pods-TCP Commander.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L88TRVRSN9;
 				INFOPLIST_FILE = "TCP Commander/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Elyoskin.TCP-Commander";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.tpu.tcp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

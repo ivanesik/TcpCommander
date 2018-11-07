@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,15 +16,61 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d1N-V7-2Mp">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TCP Commander" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="znz-H4-Gka">
+                                        <rect key="frame" x="76.5" y="239.5" width="167.5" height="25.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="6cs-Ni-c5r">
+                                        <rect key="frame" x="25" y="46" width="270" height="181.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="6cs-Ni-c5r" secondAttribute="height" multiplier="88:59" id="XzV-xc-jCa"/>
+                                            <constraint firstAttribute="width" constant="270" id="wO8-7h-I5j"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright (c) 2018 Tomsk Polytechnic University. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80z-7m-Kcs">
+                                        <rect key="frame" x="25" y="479.5" width="271" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="6cs-Ni-c5r" firstAttribute="centerX" secondItem="d1N-V7-2Mp" secondAttribute="centerX" id="0pr-Tj-sm7"/>
+                                    <constraint firstItem="6cs-Ni-c5r" firstAttribute="width" secondItem="6cs-Ni-c5r" secondAttribute="height" multiplier="88:59" id="6lK-Uj-aGX"/>
+                                    <constraint firstItem="80z-7m-Kcs" firstAttribute="centerX" secondItem="d1N-V7-2Mp" secondAttribute="centerX" id="6wY-pR-m2H"/>
+                                    <constraint firstAttribute="bottom" secondItem="80z-7m-Kcs" secondAttribute="bottom" constant="10" id="OGB-qZ-OWN"/>
+                                    <constraint firstItem="znz-H4-Gka" firstAttribute="centerY" secondItem="d1N-V7-2Mp" secondAttribute="centerY" id="WeM-oK-D0z"/>
+                                    <constraint firstItem="znz-H4-Gka" firstAttribute="centerX" secondItem="d1N-V7-2Mp" secondAttribute="centerX" id="a5p-gO-fV9"/>
+                                    <constraint firstItem="80z-7m-Kcs" firstAttribute="leading" secondItem="d1N-V7-2Mp" secondAttribute="leading" constant="25" id="esZ-NO-2rc"/>
+                                    <constraint firstItem="6cs-Ni-c5r" firstAttribute="top" secondItem="d1N-V7-2Mp" secondAttribute="top" constant="46" id="nB0-YO-LjG"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.50196078431372548" green="0.74901960784313726" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="d1N-V7-2Mp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8Ds-hp-cmg"/>
+                            <constraint firstItem="d1N-V7-2Mp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="WyK-Vb-geK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="d1N-V7-2Mp" secondAttribute="bottom" id="c5u-jN-e5f"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d1N-V7-2Mp" secondAttribute="trailing" id="oXE-Sf-T1j"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="50.625" y="373.94366197183098"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo.png" width="568" height="362"/>
+    </resources>
 </document>
