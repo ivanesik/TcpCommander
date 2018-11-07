@@ -3,7 +3,7 @@
 [![Xcode](https://img.shields.io/badge/Xcode-10.1-blue.svg)](https://developer.apple.com/xcode)
 [![MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 
-<img src="./Docs/TcpCommanderStructure.png" />
+<img src="./Docs/TcpCommanderStructure.png" style="border-radius: 30px; box-shadow: 0 0 10px rgba(0,0,0,0.5);" />
 
 ____
 ## Summary
