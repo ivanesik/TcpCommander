@@ -43,8 +43,8 @@ class ClientService: Thread, StreamDelegate {
         outputStream = writeStream!.takeRetainedValue()
         inputStream.delegate = self
         outputStream.delegate = self
-        inputStream.schedule(in: RunLoop.current, forMode: .defaultRunLoopMode)
-        outputStream.schedule(in: RunLoop.current, forMode: .defaultRunLoopMode)
+        inputStream.schedule(in: RunLoop.current, forMode: RunLoop.Mode.default)
+        outputStream.schedule(in: RunLoop.current, forMode: RunLoop.Mode.default)
         inputStream.open()
         outputStream.open()
     }
