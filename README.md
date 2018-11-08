@@ -20,8 +20,7 @@ TCP Commander - the application created for testing and debugging of systems tha
 
 ## TODO
 - HEX output;
-- UTF-8 output;
-- CocoaPods.
+- UTF-8 output.
 
 
 ## License
